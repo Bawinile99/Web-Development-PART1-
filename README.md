@@ -220,10 +220,21 @@ This project was developed as part of the **Web Development** coursework require
 - Cross-browser compatibility
 - Project documentation
 
+## 📄 License
 
+This project is created for educational purposes as part of an academic requirement. All rights to the design and code are reserved by the author.
 
----
+## 👤 Author
 
-**Note:** This is a static website created for academic purposes. Some features (like form submission) require backend integration for full functionality in a production environment.
+**Bawinile Mahlangu**  
+- Student Number: St10494448  
+- Group: Group 4  
+- Institution: The Independent Institute of Education  
 
-For any questions about this project, please contact the author through the institution's designated channels.
+## 📚 References
+
+1. Nielsen, J. and Tahir, M. (2002) *Homepage usability: 50 websites deconstructed*. Indianapolis: New Riders.
+2. MDN Web Docs. (2023). *HTML: HyperText Markup Language*. https://developer.mozilla.org/en-US/docs/Web/HTML
+3. W3C. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. https://www.w3.org/TR/WCAG21/
+4. Google Fonts. (2025). *Montserrat & Open Sans*. https://fonts.google.com/
+5. Unsplash. (2025). *Beautiful Free Images & Pictures*. https://unsplash.com/
