@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Threads Boutique - Enquiry</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <h1>Urban Threads</h1>
+            <p>Loading enquiry form...</p>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">Urban Threads</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquire</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>Product Enquiry</h1>
+                <form onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product">Product of Interest *</label>
+                        <select id="product" name="product" required>
+                            <option value="">Select a product</option>
+                            <option value="denim-jacket">Premium Denim Jacket</option>
+                            <option value="leather-boots">Leather Ankle Boots</option>
+                            <option value="silk-scarf">Printed Silk Scarf</option>
+                            <option value="wool-sweater">Cashmere Blend Sweater</option>
+                            <option value="leather-bag">Designer Leather Tote</option>
+                            <option value="sneakers">Limited Edition Sneakers</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="size">Size (if applicable)</label>
+                        <select id="size" name="size">
+                            <option value="">Select size</option>
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Additional Message</label>
+                        <textarea id="message" name="message" placeholder="Any special requests or questions..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Submit Enquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Urban Threads Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

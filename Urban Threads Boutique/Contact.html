@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Threads Boutique - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <h1>Urban Threads</h1>
+            <p>Loading contact information...</p>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">Urban Threads</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquire</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>Contact Us</h1>
+                
+                <div class="contact-info">
+                    <h3>Store Information</h3>
+                    <div class="info-item">
+                        <strong>📍 Main Store:</strong> 123 Fashion Street, Cape Town City Centre, 8001
+                    </div>
+                    <div class="info-item">
+                        <strong>📍 Distribution Point:</strong> 45 Trendy Avenue, Sandton, Johannesburg, 2196
+                    </div>
+                    <div class="info-item">
+                        <strong>📞 Phone:</strong> +27 21 123 4567
+                    </div>
+                    <div class="info-item">
+                        <strong>✉️ Email:</strong> info@urbanthreads.co.za
+                    </div>
+                    <div class="info-item">
+                        <strong>🕒 Hours:</strong> Mon-Fri: 9AM-6PM | Sat: 9AM-4PM | Sun: 10AM-2PM
+                    </div>
+                </div>
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13249.45470809755!2d18.416933!3d-33.925732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc67558e65c5c3%3A0x364f6e8d5f0b5c0!2sCape%20Town%20City%20Centre%2C%20Cape%20Town%2C%208000!5e0!3m2!1sen!2sza!4v1698765432100!5m2!1sen!2sza" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                    </iframe>
+                </div>
+
+                <h2 style="margin-top: 40px;">Send us a Message</h2>
+                <form onsubmit="return validateContactForm()">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Urban Threads Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
